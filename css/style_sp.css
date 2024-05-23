@@ -2,6 +2,19 @@
   .pc { display: none !important; }
   .sp { display: block !important; }
  
+  .menu {
+    height: 50px;
+  }
+
+  .logo{
+    height: 50px;
+  }
+  .menu-right a {
+    line-height: 50px;
+    padding: 0 5px;
+    color: white;
+  }
+
     .tab_item{
       width: calc(100%/2);
       font-size: 21px;
