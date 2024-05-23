@@ -8,11 +8,25 @@
 
   .logo{
     height: 50px;
+
   }
   .menu-right a {
     line-height: 50px;
     padding: 0 5px;
     color: white;
+  }
+
+  .container{
+    width: 100%;
+    padding: 0;
+  }
+
+  .menu-right{
+    margin-right: 0;
+  }
+
+  header{
+    margin-top: 50px;
   }
 
     .tab_item{
