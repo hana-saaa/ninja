@@ -1,0 +1,58 @@
+@media (max-width:840px) {
+  .pc { display: none !important; }
+  .sp { display: block !important; }
+
+  .menu {
+    height: 50px;
+  }
+
+  .logo{
+    height: 50px;
+  }
+  .menu-right a {
+    line-height: 50px;
+    padding: 0 5px;
+    color: white;
+  }
+
+    .tab_item{
+      width: calc(100%/2);
+      font-size: 21px;
+      opacity: 0.75;
+      display: block;
+      float: left;
+      margin: 0;
+      line-height: 50px;
+    }
+
+    .tab_item:hover {
+      opacity: 1;
+    }
+
+    /*
+    input[name="tab_item"] {
+      display: none;
+    }
+
+  /*タブ切り替えの中身のスタイル*/
+  .tab_content {
+    width: 100%;
+    margin: 0 auto;
+    display: none;
+    text-align: center;
+    overflow: hidden;
+    height: 500px;
+  }
+
+  /*選択されているタブのコンテンツのみを表示*/
+  #men:checked ~ #men_content,
+  #women:checked ~ #women_content{
+    display: block;
+  }
+
+  /*選択されているタブのスタイルを変える*/
+  .tabs input:checked + .tab_item {
+    opacity: 1;
+  }
+
+}
